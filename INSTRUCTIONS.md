@@ -30,6 +30,23 @@ npm run dev
 
 ...
 
+# Authentication
+
+Clerk setup: https://clerk.com/ - login - add application
+
+```
+application name: antonio-trello 
+turn off email address
+create application
+copy API KEYS to .env
+.gitignore .env
+npm i @clerk/nextjs
+```
+
+.env
+```
+
+
 # Deployment
 
 foreach
