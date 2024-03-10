@@ -53,6 +53,10 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 ```
 
+# Dark Mode
+
+`npm i next-themes@0.2.1 @clerk/themes@1.7.9`
+
 # Deployment
 
 foreach
