@@ -113,6 +113,13 @@ validate npx prisma studio - open http://localhost:3000 - when create user studi
 CLERK_WEBHOOK_SECRET=
 ```
 
+# Navbar
+
+```
+npm i query-string@8.1.0
+npx shadcn-ui@latest add input
+```
+
 # Deployment
 
 foreach
