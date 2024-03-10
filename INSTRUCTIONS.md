@@ -82,6 +82,37 @@ DATABASE_URL=
   },
 ```
 
+# Local Tunnel
+
+Ngrok
+```
+Download & Open Ngrok - https://ngrok.com/download
+create account - add-authtoken
+ngrok http 3000 - use https link
+npm run dev
+.
+stable url - https://dashboard.ngrok.com/ - Cloud Edge - Domains - new domain
+ngrok http -domain=... 3000 - instead of ngrok http 3000
+```
+
+# Clerk Webhook
+
+```
+delete all users from clerk
+info at https://clerk.com/docs/integrations/webhooks/sync-data
+https://dashboard.clerk.com/ - webhooks - add endpoint - paste ngrok http + "/api/webhooks/clerk"
+Message Filtering - enable user - create - copy signin secret to .env
+npm i svix
+restart ngrok & validate ngrok http + /api/webhooks/clerk - show "null"
+clerk webhook - Testing - send user.created - send example - validate show -  ⨯ PrismaClientValidationError: Invalid `prisma.user.create()` invocation:
+validate npx prisma studio - open http://localhost:3000 - when create user studio show "User" data
+```
+
+.env
+```
+CLERK_WEBHOOK_SECRET=
+```
+
 # Deployment
 
 foreach
