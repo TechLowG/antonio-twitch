@@ -120,6 +120,13 @@ npm i query-string@8.1.0
 npx shadcn-ui@latest add input
 ```
 
+# Sidebar
+
+```
+npx shadcn-ui@latest add tooltip
+npm i usehooks-ts@2.9.1 zustand@4.4.7
+```
+
 # Deployment
 
 foreach
