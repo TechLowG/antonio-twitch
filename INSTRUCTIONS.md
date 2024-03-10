@@ -57,6 +57,31 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
 `npm i next-themes@0.2.1 @clerk/themes@1.7.9`
 
+# Database
+
+NeonDB: https://neon.tech/ - login - create service
+
+```
+npm i -D prisma
+npm i @prisma/client
+npx prisma init
+npx prisma generate
+npx prisma db push
+npx prisma studio
+```
+
+.env 
+```
+DATABASE_URL=
+```
+
+.package.json
+```
+"scripts": {
+    "postinstall": "prisma generate"
+  },
+```
+
 # Deployment
 
 foreach
