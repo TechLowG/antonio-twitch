@@ -50,20 +50,11 @@ export async function POST(req: Request) {
 
   const eventType = evt.type;
 
-  // Use email if username is null
-  let userData = payload.data;
-
-  if (!userData.username && userData.email_addresses && userData.email_addresses.length > 0) {
-    userData.username = userData.email_addresses[0].email_address;
-  } else {
-    userData.username = "temp"; // or any default value you want to set
-  }
-
   if (eventType === "user.created") {
     await db.user.create({
       data: {
         externalUserId: payload.data.id,
-        username: userData.username, // Use modified username
+        username: payload.data.username,
         imageUrl: payload.data.image_url,
       }
     });
