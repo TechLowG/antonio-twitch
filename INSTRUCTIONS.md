@@ -175,6 +175,10 @@ npx prisma db push
 npx prisma generate
 ```
 
+# Chat Settings
+
+`npx shadcn-ui@latest add switch`
+
 # Deployment
 
 foreach
