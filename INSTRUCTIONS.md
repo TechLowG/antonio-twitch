@@ -166,6 +166,15 @@ npx prisma db push
 
 ...
 
+# Stream Model
+
+```
+remove all users - in clerk & db
+npx prisma migrate reset
+npx prisma db push
+npx prisma generate
+```
+
 # Deployment
 
 foreach
