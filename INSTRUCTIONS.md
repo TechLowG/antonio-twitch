@@ -131,6 +131,10 @@ npm i usehooks-ts@2.9.1 zustand@4.4.7
 
 `npx shadcn-ui@latest add avatar skeleton`
 
+# Hydration Error
+
+Read @ https://www.joshwcomeau.com/react/the-perils-of-rehydration/
+
 # Deployment
 
 foreach
