@@ -183,6 +183,27 @@ npx prisma generate
 
 `npx shadcn-ui@latest add alert dialog select`
 
+# Ingress
+
+```
+visit https://livekit.io - signin - create new project - antonio-twitch - finish
+settings tab - keys - add new key "development"
+copy the 3 keys to .env
+.
+get LIVEKIT_API_URL by analytics tab - copy top link - + "https://" at beginning
+npm i @livekit/components-react@1.4.2 livekit-client@1.15.4 livekit-server-sdk@1.2.7
+.
+generate connection - RTMP
+```
+
+.env
+```
+LIVEKIT_API_URL=
+LIVEKIT_API_KEY=
+LIVEKIT_API_SECRET=
+NEXT_PUBLIC_LIVEKIT_WS_URL=
+```
+
 # Deployment
 
 foreach
