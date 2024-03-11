@@ -179,6 +179,10 @@ npx prisma generate
 
 `npx shadcn-ui@latest add switch`
 
+# Key Settings
+
+`npx shadcn-ui@latest add alert dialog select`
+
 # Deployment
 
 foreach
