@@ -153,6 +153,15 @@ npx prisma db push
 
 ...
 
+# Block Service
+
+Notice: block onClick is broken. Only used for testing.
+
+```
+npx prisma generate
+npx prisma db push
+```
+
 # Deployment
 
 foreach
