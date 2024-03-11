@@ -98,6 +98,12 @@ ngrok http -domain=... 3000 - instead of ngrok http 3000
 # Clerk Webhook
 
 ```
+enable Username in Clerk Dashboard
+Goto tab User & Authentication - Email, Phone, Username.
+Enable Username
+Then click Gear next to Username.
+Disable "Sign-in" but keep require.
+.
 delete all users from clerk
 info at https://clerk.com/docs/integrations/webhooks/sync-data
 https://dashboard.clerk.com/ - webhooks - add endpoint - paste ngrok http + "/api/webhooks/clerk"
@@ -134,6 +140,14 @@ npm i usehooks-ts@2.9.1 zustand@4.4.7
 # Hydration Error
 
 Read @ https://www.joshwcomeau.com/react/the-perils-of-rehydration/
+
+# Follow Service
+
+```
+npm i sonner
+npx prisma generate
+npx prisma db push
+```
 
 # Deployment
 
