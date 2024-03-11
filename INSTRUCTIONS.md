@@ -162,6 +162,10 @@ npx prisma generate
 npx prisma db push
 ```
 
+# Creator Dashboard
+
+...
+
 # Deployment
 
 foreach
