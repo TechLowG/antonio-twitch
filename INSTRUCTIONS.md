@@ -149,6 +149,10 @@ npx prisma generate
 npx prisma db push
 ```
 
+# Follow List
+
+...
+
 # Deployment
 
 foreach
