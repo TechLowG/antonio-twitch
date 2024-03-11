@@ -127,6 +127,10 @@ npx shadcn-ui@latest add tooltip
 npm i usehooks-ts@2.9.1 zustand@4.4.7
 ```
 
+# Recommended List
+
+`npx shadcn-ui@latest add avatar skeleton`
+
 # Deployment
 
 foreach
