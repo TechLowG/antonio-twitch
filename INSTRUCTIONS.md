@@ -204,6 +204,29 @@ LIVEKIT_API_SECRET=
 NEXT_PUBLIC_LIVEKIT_WS_URL=
 ```
 
+# OBS Crash Course
+
+```
+https://obsproject.com/ - download & open
+Scenes - (+) - "obs demo"
+Sources - (+) - "screen capture" - select display
+Sources - (+) - "audio input capture" - 
+Controls - settings 
+- video - same base & output resolution
+- output - output mode "advanced" 
+- streaming tab
+- streaming settings - video encoder "x264"
+- encoder settings - rate control CBR / bitrate 3500 kpbs / cpu veryfast
+- recording tab - recording path / format mkv / 
+.
+copy server url from site -
+- stream - Custom - add server / add stream key - click ok
+.
+Controls - start streaming
+.
+validate stream in https://cloud.livekit.io/ - Egress/Ingress - status publishing
+```
+
 # Deployment
 
 foreach
