@@ -245,6 +245,10 @@ npm i uuid@9.0.1 jwt-decode@4.0.0
 npm i -D @types/uuid@9.0.7
 ```
 
+# Video Component
+
+`npx shadcn-ui@latest add slider` 
+
 # Deployment
 
 foreach
