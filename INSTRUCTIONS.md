@@ -227,6 +227,17 @@ Controls - start streaming
 validate stream in https://cloud.livekit.io/ - Egress/Ingress - status publishing
 ```
 
+# Livekit Webhook
+
+```
+add webhook at Livekit Page - Project - Settings - Webhook tab
+- name: "development" - url: paste ngrok link + "/api/webhooks/livekit" - add signin api key correctly
+.
+localhost - login - dashboard - keys - generate RTMP - copy keys
+obs - settings - stream tab - paste server & stream key - start stream
+localhost - signout - validate live text is shown in sidebar recommended list. 
+```
+
 # Deployment
 
 foreach
