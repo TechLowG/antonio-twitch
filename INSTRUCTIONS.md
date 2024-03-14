@@ -249,6 +249,10 @@ npm i -D @types/uuid@9.0.7
 
 `npx shadcn-ui@latest add slider` 
 
+# Chat Component
+
+`npm i date-fns@2.30.0`
+
 # Deployment
 
 foreach
