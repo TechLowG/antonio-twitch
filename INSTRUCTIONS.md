@@ -238,6 +238,13 @@ obs - settings - stream tab - paste server & stream key - start stream
 localhost - signout - validate live text is shown in sidebar recommended list. 
 ```
 
+# Viewer Token
+
+```
+npm i uuid@9.0.1 jwt-decode@4.0.0
+npm i -D @types/uuid@9.0.7
+```
+
 # Deployment
 
 foreach
