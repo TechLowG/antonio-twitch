@@ -281,6 +281,19 @@ UPLOADTHING_APP_ID=
 
 `npx shadcn-ui@latest add textarea`
 
+# Username Page
+
+```
+User Page
+follow/unfollow - update realtime
+.
+User Page Settings
+- enable chat on/off
+- delay chat - 3 seconds to send message
+- follow only - only followers can send message
+- block user - disconnect stream - 404 page on reload
+```
+
 # Deployment
 
 foreach
