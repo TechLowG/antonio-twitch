@@ -294,6 +294,10 @@ User Page Settings
 - block user - disconnect stream - 404 page on reload
 ```
 
+# Home Page
+
+...
+
 # Deployment
 
 foreach
