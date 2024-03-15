@@ -298,6 +298,10 @@ User Page Settings
 
 ...
 
+# Search Page
+
+...
+
 # Deployment
 
 foreach
