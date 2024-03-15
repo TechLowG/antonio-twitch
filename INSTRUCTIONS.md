@@ -263,7 +263,6 @@ npm i -D @types/uuid@9.0.7
 
 # Info Card
 
-
 UploadThing
 ```
 npx shadcn-ui@latest add label separator
@@ -277,6 +276,10 @@ uploadthing.com - login - create app: "antonio-twitch" - create app
 UPLOADTHING_SECRET=
 UPLOADTHING_APP_ID=
 ```
+
+# About Card
+
+`npx shadcn-ui@latest add textarea`
 
 # Deployment
 
