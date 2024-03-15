@@ -253,6 +253,10 @@ npm i -D @types/uuid@9.0.7
 
 `npm i date-fns@2.30.0`
 
+# Community Component
+
+`npx shadcn-ui@latest add scroll-area`
+
 # Deployment
 
 foreach
