@@ -257,6 +257,27 @@ npm i -D @types/uuid@9.0.7
 
 `npx shadcn-ui@latest add scroll-area`
 
+# Header Component
+
+...
+
+# Info Card
+
+
+UploadThing
+```
+npx shadcn-ui@latest add label separator
+npm i @uploadthing/react@6.0.2 uploadthing@6.0.4
+.
+uploadthing.com - login - create app: "antonio-twitch" - create app
+- api keys tab - copy keys to .env
+```
+.env
+```
+UPLOADTHING_SECRET=
+UPLOADTHING_APP_ID=
+```
+
 # Deployment
 
 foreach
