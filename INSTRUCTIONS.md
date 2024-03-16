@@ -1,7 +1,7 @@
-# Environment Setup
+### Environment Setup
 
-- Next.js 14.0.3
-npx create-next-app@14.0.3 antonio-twitch-clone
+
+`npx create-next-app@14.0.3 antonio-twitch-clone`
 ```
 √ Would you like to use TypeScript? Yes
 √ Would you like to use ESLint? Yes
@@ -12,7 +12,7 @@ npx create-next-app@14.0.3 antonio-twitch-clone
 ```
 `cd folder`
 
-npx shadcn-ui@latest init
+`npx shadcn-ui@latest init`
 ```
 √ Would you like to use TypeScript (recommended)? ... yes
 √ Which style would you like to use? » Default
@@ -26,11 +26,11 @@ npx shadcn-ui@latest add button
 npm run dev
 ```
 
-# Folders Setup
+### Folders Setup
 
 ...
 
-# Authentication
+### Authentication
 
 Clerk setup: https://clerk.com/ - login - add application
 
@@ -53,11 +53,11 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 ```
 
-# Dark Mode
+### Dark Mode
 
 `npm i next-themes@0.2.1 @clerk/themes@1.7.9`
 
-# Database
+### Database
 
 NeonDB: https://neon.tech/ - login - create service
 
@@ -82,7 +82,7 @@ DATABASE_URL=
   },
 ```
 
-# Local Tunnel
+### Local Tunnel
 
 Ngrok
 ```
@@ -95,7 +95,7 @@ stable url - https://dashboard.ngrok.com/ - Cloud Edge - Domains - new domain
 ngrok http -domain=... 3000 - instead of ngrok http 3000
 ```
 
-# Clerk Webhook
+### Clerk Webhook
 
 ```
 enable Username in Clerk Dashboard
@@ -119,29 +119,29 @@ validate npx prisma studio - open http://localhost:3000 - when create user studi
 CLERK_WEBHOOK_SECRET=
 ```
 
-# Navbar
+### Navbar
 
 ```
 npm i query-string@8.1.0
 npx shadcn-ui@latest add input
 ```
 
-# Sidebar
+### Sidebar
 
 ```
 npx shadcn-ui@latest add tooltip
 npm i usehooks-ts@2.9.1 zustand@4.4.7
 ```
 
-# Recommended List
+### Recommended List
 
 `npx shadcn-ui@latest add avatar skeleton`
 
-# Hydration Error
+### Hydration Error
 
 Read @ https://www.joshwcomeau.com/react/the-perils-of-rehydration/
 
-# Follow Service
+### Follow Service
 
 ```
 npm i sonner
@@ -149,11 +149,11 @@ npx prisma generate
 npx prisma db push
 ```
 
-# Follow List
+### Follow List
 
 ...
 
-# Block Service
+### Block Service
 
 Notice: block onClick is broken. Only used for testing.
 
@@ -162,11 +162,11 @@ npx prisma generate
 npx prisma db push
 ```
 
-# Creator Dashboard
+### Creator Dashboard
 
 ...
 
-# Stream Model
+### Stream Model
 
 ```
 remove all users - in clerk & db
@@ -175,15 +175,15 @@ npx prisma db push
 npx prisma generate
 ```
 
-# Chat Settings
+### Chat Settings
 
 `npx shadcn-ui@latest add switch`
 
-# Key Settings
+### Key Settings
 
 `npx shadcn-ui@latest add alert dialog select`
 
-# Ingress
+### Ingress
 
 ```
 visit https://livekit.io - signin - create new project - antonio-twitch - finish
@@ -204,7 +204,7 @@ LIVEKIT_API_SECRET=
 NEXT_PUBLIC_LIVEKIT_WS_URL=
 ```
 
-# OBS Crash Course
+### OBS Crash Course
 
 ```
 https://obsproject.com/ - download & open
@@ -227,7 +227,7 @@ Controls - start streaming
 validate stream in https://cloud.livekit.io/ - Egress/Ingress - status publishing
 ```
 
-# Livekit Webhook
+### Livekit Webhook
 
 ```
 add webhook at Livekit Page - Project - Settings - Webhook tab
@@ -238,18 +238,18 @@ obs - settings - stream tab - paste server & stream key - start stream
 localhost - signout - validate live text is shown in sidebar recommended list. 
 ```
 
-# Viewer Token
+### Viewer Token
 
 ```
 npm i uuid@9.0.1 jwt-decode@4.0.0
 npm i -D @types/uuid@9.0.7
 ```
 
-# Video Component
+### Video Component
 
 `npx shadcn-ui@latest add slider` 
 
-# Chat Component
+### Chat Component
 
 `npm i date-fns@2.30.0`
 
@@ -257,11 +257,11 @@ npm i -D @types/uuid@9.0.7
 
 `npx shadcn-ui@latest add scroll-area`
 
-# Header Component
+### Header Component
 
 ...
 
-# Info Card
+### Info Card
 
 UploadThing
 ```
@@ -277,7 +277,7 @@ UPLOADTHING_SECRET=
 UPLOADTHING_APP_ID=
 ```
 
-# About Card
+### About Card
 
 `npx shadcn-ui@latest add textarea`
 
@@ -294,7 +294,7 @@ User Page Settings
 - block user - disconnect stream - 404 page on reload
 ```
 
-# Home Page
+### Home Page
 
 ...
 
@@ -302,7 +302,14 @@ User Page Settings
 
 ...
 
-# Deployment
+### Unblock Page
+
+```
+npx shadcn-ui@latest add table
+npm i @tanstack/react-table@8.10.7
+```
+
+### Deployment
 
 foreach
 ```
